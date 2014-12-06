@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A93EE14-19FF-4AE7-BB38-9B0C3D1511D5}</ProjectGuid>
+    <ProjectGuid>{E1D76DC1-F374-4F86-8D62-B731A3C0A4BB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NetProtocal.Common</RootNamespace>
-    <AssemblyName>NetProtocal.Common</AssemblyName>
+    <RootNamespace>NetProtocol.TextMessage</RootNamespace>
+    <AssemblyName>NetProtocol.TextMessage</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,8 +39,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IMessage.cs" />
-    <Compile Include="IParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

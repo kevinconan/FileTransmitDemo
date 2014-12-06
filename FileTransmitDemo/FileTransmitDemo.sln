@@ -5,7 +5,9 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransmitDemo", "FileTransmitDemo\FileTransmitDemo.csproj", "{D7306582-6D90-4396-BE2D-6A962561C47F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProtocal.Common", "NetProtocal.common\NetProtocal.Common.csproj", "{2A93EE14-19FF-4AE7-BB38-9B0C3D1511D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProtocol.Common", "NetProtocal.common\NetProtocol.Common.csproj", "{2A93EE14-19FF-4AE7-BB38-9B0C3D1511D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetProtocol.TextMessage", "NetProtocal.TextMessage\NetProtocol.TextMessage.csproj", "{E1D76DC1-F374-4F86-8D62-B731A3C0A4BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2A93EE14-19FF-4AE7-BB38-9B0C3D1511D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A93EE14-19FF-4AE7-BB38-9B0C3D1511D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A93EE14-19FF-4AE7-BB38-9B0C3D1511D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D76DC1-F374-4F86-8D62-B731A3C0A4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D76DC1-F374-4F86-8D62-B731A3C0A4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D76DC1-F374-4F86-8D62-B731A3C0A4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D76DC1-F374-4F86-8D62-B731A3C0A4BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
